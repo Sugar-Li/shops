@@ -1,11 +1,16 @@
 <template>
-    <div>订单</div>
+  <Header title="订单列表"></Header>
 </template>
 
 <script>
-    export default {
-        name: "index"
+  import Header from '../../components/Hearder/Hearder'
+
+  export default {
+    name: "order",
+    components:{
+      Header
     }
+  }
 </script>
 
 <style scoped>

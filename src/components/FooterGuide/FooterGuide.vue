@@ -46,13 +46,12 @@
 
 <script>
   export default {
-    name: "footer",
+    name:'FooterGuide',
     methods:{
       goto(path){
         return this.$router.replace(path)
       },
       isCurrent(path){
-        console.log(this.$route)
         return this.$route.path===path
       }
     }

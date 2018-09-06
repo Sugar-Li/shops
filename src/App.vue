@@ -1,21 +1,22 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <Footer></Footer>
+    <FooterGuide></FooterGuide>
   </div>
 
 </template>
 
 <script>
-  import Footer from './components/Footer/Footer.vue'
-export default {
-  components:{
-    Footer
+  import FooterGuide from './components/FooterGuide/FooterGuide.vue'
+
+  export default {
+    components: {
+      FooterGuide
+    }
   }
-}
 </script>
 
-<style rel="stylesheet/stylus"lang="stylus">
+<style rel="stylesheet/stylus" lang="stylus">
 
   #app
     width: 100%

@@ -1,11 +1,16 @@
 <template>
-    <div>我的</div>
+  <Header title="我的"></Header>
 </template>
 
 <script>
-    export default {
-        name: "index"
+  import Header from '../../components/Hearder/Hearder'
+
+  export default {
+    name: "mine",
+    components:{
+      Header
     }
+  }
 </script>
 
 <style scoped>
